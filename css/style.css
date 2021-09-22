@@ -389,7 +389,7 @@ color:aqua;
 	color: #f0e68c;
 	font-size: 20px;
 	letter-spacing: 2px;
-	max-height: auto;
+	max-height: 100%;
 	border: 1px solid #000;
 }
 

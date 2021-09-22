@@ -484,7 +484,7 @@ h3{
 }
 .overflow-auto {
 	overflow: auto;
-	width: 150%;
+	width: 80%;
 	max-height: 100px;
 	color: #0000ff;
 	font-size: 28px;

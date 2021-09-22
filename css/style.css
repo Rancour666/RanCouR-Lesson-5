@@ -316,7 +316,7 @@ color:aqua;
 .example-height {
 	padding: 40px;
 	margin: 0px 0px 40px 0px;
-	height: 1000px;
+	height: 1500px;
 	overflow: auto;
 }
 .example-height p{
@@ -363,7 +363,7 @@ color:aqua;
 .example-max-height {
 	padding: 40px;
 	margin: 0px 0px 40px 0px;
-	height: 900px;
+	height: 1500px;
 	overflow: auto;
 }
 .example-max-height p{

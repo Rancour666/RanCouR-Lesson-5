@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link href="https://fonts.googleapis.com/css?family=Alegreya:900&display=swap&subset=cyrillic-ext" rel="stylesheet" />
+		<link rel="stylesheet" href="css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Lesson 5</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<h1>Свойства Блоков в CSS</h1>
+				<nav class="header-menu">
+					<ul class="menu-list">
+						<li><a href="#a1" class="menu-link">padding |</a></li>
+						<li><a href="#a2" class="menu-link">margin |</a></li>
+						<li><a href="#a3" class="menu-link">width |</a></li>
+						<li><a href="#a4" class="menu-link">max-width |</a></li>
+						<li><a href="#a5" class="menu-link">min-width |</a></li>
+						<li><a href="#a6" class="menu-link">height |</a></li>
+						<li><a href="#a7" class="menu-link">max-height |</a></li>
+						<li><a href="#a8" class="menu-link">min-height |</a></li>
+						<li><a href="#a9" class="menu-link">overflow |</a></li>
+						<li><a href="#a10" class="menu-link">display |</a></li>
+						<li><a href="#a11" class="menu-link">images |</a></li>
+						<li><a href="#a12" class="menu-link">additional tasks |</a></li>
+					</ul>
+				</nav>
+			</header>
+			<main>
+				<div id="a1" class="example-padding">
+					<h2><a href="#">padding</a></h2>
+					<p class="padding-text-first">Свойство <span>padding</span> устанавливает внутренние отступы/поля со всех сторон элемента. <span style="color: darkgoldenrod;">Область отступов</span> это пространство между содержанием элемента и его границей. Отрицательные значения не допускаются.</p>
+					<p class="padding-text-second">Свойство <span>padding</span> краткая форма записи свойств, чтобы не писать отдельное правило для каждой стороны (<span>padding-top, padding-right, padding-bottom, padding-left</span>).</p>
+				</div>
+				<div id="a2" class="example-margin">
+					<h2><a href="#">margin</a></h2>
+					<p class="margin-text">Свойство <span>margin</span> CSS определяет внешний отступ на всех четырёх сторонах элемента. Это сокращение, которое устанавливает все отдельные поля одновременно: <span>margin-top, margin-right, margin-bottom и margin-left</span>.</p>
+					<p class="margin-text">Свойство <span>margin</span> CSS определяет внешний отступ на всех четырёх сторонах элемента. Это сокращение, которое устанавливает все отдельные поля одновременно: <span>margin-top, margin-right, margin-bottom и margin-left</span>.</p>
+				</div>
+				<div id="a3" class="example-width">
+					<h2><a href="#">width</a></h2>
+					<p class="width-text-first">Свойство CSS <span>width</span> устанавливает ширину элемента. По умолчанию она равняется ширине внутренней области, но если <span>box-sizing</span> имеет значение <span>border-box</span>, то она будет равняться ширине области рамки.</p>
+					<p class="width-text-second">Свойство CSS <span>width</span> устанавливает ширину элемента. По умолчанию она равняется ширине внутренней области, но если <span>box-sizing</span> имеет значение <span>border-box</span>, то она будет равняться ширине области рамки.</p>
+					<p class="width-text-third">Свойство CSS <span>width</span> устанавливает ширину элемента. По умолчанию она равняется ширине внутренней области, но если <span>box-sizing</span> имеет значение <span>border-box</span>, то она будет равняться ширине области рамки.</p>
+				</div>
+				<div id="a4" class="example-max-width">
+					<h2><a href="#">max-width</a></h2>
+					
+					<p class="max-width-text-first">Свойство CSS <span>max-width</span> устанавливает максимальную ширину элемента. Оно предотвращает <span style="color: rgb(216, 67, 40);" >используемое значение</span> свойства <span>width</span>  от становления больше, чем значение, указанное для <span>max-width</span>.Свойство CSS <span>max-width</span> устанавливает максимальную ширину элемента. Оно предотвращает <span style="color: rgb(216, 67, 40);" >используемое значение</span> свойства <span>width</span>  от становления больше, чем значение, указанное для <span>max-width</span>.</p>
+					<p class="max-width-text-second">Свойство CSS <span>max-width</span> устанавливает максимальную ширину элемента. Оно предотвращает <span style="color: rgb(216, 67, 40);" >используемое значение</span> свойства <span>width</span>  от становления больше, чем значение, указанное для <span>max-width</span>.Свойство CSS <span>max-width</span> устанавливает максимальную ширину элемента. Оно предотвращает <span style="color: rgb(216, 67, 40);" >используемое значение</span> свойства <span>width</span>  от становления больше, чем значение, указанное для <span>max-width</span>.</p>
+				</div>
+				<div id="a5" class="example-min-width">
+					<h2><a href="#">min-width</a></h2>
+					<p class="min-width-text-first">Свойство CSS <span>min-width</span> устанавливает минимальную ширину элемента. Оно предотвращает используемое значение свойства <span>width</span>  от становления меньше, чем значение, указанное для <span>min-width</span>.Свойство CSS <span>min-width</span> устанавливает минимальную ширину элемента. Оно предотвращает используемое значение свойства <span>width</span>  от становления меньше, чем значение, указанное для <span>min-width</span>.</p>
+					<p class="min-width-text-second">Свойство CSS <span>min-width</span> устанавливает минимальную ширину элемента. Оно предотвращает используемое значение свойства <span>width</span>  от становления меньше, чем значение, указанное для <span>min-width</span>.Свойство CSS <span>min-width</span> устанавливает минимальную ширину элемента. Оно предотвращает используемое значение свойства <span>width</span>  от становления меньше, чем значение, указанное для <span>min-width</span>.Свойство CSS <span>min-width</span> устанавливает минимальную ширину элемента. Оно предотвращает используемое значение свойства <span>width</span>  от становления меньше, чем значение, указанное для <span>min-width</span>.Свойство CSS <span>min-width</span> устанавливает минимальную ширину элемента. Оно предотвращает используемое значение свойства <span>width</span>  от становления меньше, чем значение, указанное для <span>min-width</span>.Свойство CSS <span>min-width</span> устанавливает минимальную ширину элемента. Оно предотвращает используемое значение свойства <span>width</span>  от становления меньше, чем значение, указанное для <span>min-width</span>.Свойство CSS <span>min-width</span> устанавливает минимальную ширину элемента. Оно предотвращает используемое значение свойства <span>width</span>  от становления меньше, чем значение, указанное для <span>min-width</span>.Свойство CSS <span>min-width</span> устанавливает минимальную ширину элемента. Оно предотвращает используемое значение свойства <span>width</span>  от становления меньше, чем значение, указанное для <span>min-width</span>.Свойство CSS <span>min-width</span> устанавливает минимальную ширину элемента. Оно предотвращает используемое значение свойства <span>width</span>  от становления меньше, чем значение, указанное для <span>min-width</span>.Свойство CSS <span>min-width</span> устанавливает минимальную ширину элемента. Оно предотвращает используемое значение свойства <span>width</span>  от становления меньше, чем значение, указанное для <span>min-width</span>.Свойство CSS <span>min-width</span> устанавливает минимальную ширину элемента. Оно предотвращает используемое значение свойства <span>width</span>  от становления меньше, чем значение, указанное для <span>min-width</span>.Свойство CSS <span>min-width</span> устанавливает минимальную ширину элемента. Оно предотвращает используемое значение свойства <span>width</span>  от становления меньше, чем значение, указанное для <span>min-width</span>.Свойство CSS <span>min-width</span> устанавливает минимальную ширину элемента. Оно предотвращает используемое значение свойства <span>width</span>  от становления меньше, чем значение, указанное для <span>min-width</span>.Свойство CSS <span>min-width</span> устанавливает минимальную ширину элемента. Оно предотвращает используемое значение свойства <span>width</span>  от становления меньше, чем значение, указанное для <span>min-width</span>.Свойство CSS <span>min-width</span> устанавливает минимальную ширину элемента. Оно предотвращает используемое значение свойства <span>width</span>  от становления меньше, чем значение, указанное для <span>min-width</span>.Свойство CSS <span>min-width</span> устанавливает минимальную ширину элемента. Оно предотвращает используемое значение свойства <span>width</span>  от становления меньше, чем значение, указанное для <span>min-width</span>.Свойство CSS <span>min-width</span> устанавливает минимальную ширину элемента. Оно предотвращает используемое значение свойства <span>width</span>  от становления меньше, чем значение, указанное для <span>min-width</span>.Свойство CSS <span>min-width</span> устанавливает минимальную ширину элемента. Оно предотвращает используемое значение свойства <span>width</span>  от становления меньше, чем значение, указанное для <span>min-width</span>.Свойство CSS <span>min-width</span> устанавливает минимальную ширину элемента. Оно предотвращает используемое значение свойства <span>width</span>  от становления меньше, чем значение, указанное для <span>min-width</span>.</p>
+				</div>
+				<div id="a6" class="example-height">
+					<h2><a href="#">height</a></h2>
+					<p class="height-text-first">CSS атрибут <span>height</span> позволят обозначать высоту элемента. По умолчанию, свойство определяет высоту внутренней области. Если <span>box-sizing</span> имеет значение <span>border-box</span>, то свойство будет определять высоту области рамки.CSS атрибут <span>height</span> позволят обозначать высоту элемента. По умолчанию, свойство определяет высоту внутренней области. Если <span>box-sizing</span> имеет значение <span>border-box</span>, то свойство будет определять высоту области рамки.CSS атрибут height позволят обозначать высоту элемента. По умолчанию, свойство определяет высоту внутренней области. Если box-sizing имеет значение border-box, то свойство будет определять высоту области рамки.</p>
+					<p class="height-text-second">CSS атрибут <span>height</span> позволят обозначать высоту элемента. По умолчанию, свойство определяет высоту внутренней области. Если <span>box-sizing</span> имеет значение <span>border-box</span>, то свойство будет определять высоту области рамки.CSS атрибут <span>height</span> позволят обозначать высоту элемента. По умолчанию, свойство определяет высоту внутренней области. Если <span>box-sizing</span> имеет значение <span>border-box</span>, то свойство будет определять высоту области рамки.CSS атрибут height позволят обозначать высоту элемента. По умолчанию, свойство определяет высоту внутренней области. Если box-sizing имеет значение border-box, то свойство будет определять высоту области рамки.CSS атрибут <span>height</span> позволят обозначать высоту элемента. По умолчанию, свойство определяет высоту внутренней области. Если <span>box-sizing</span> имеет значение <span>border-box</span>, то свойство будет определять высоту области рамки.CSS атрибут <span>height</span> позволят обозначать высоту элемента. По умолчанию, свойство определяет высоту внутренней области. Если <span>box-sizing</span> имеет значение <span>border-box</span>, то свойство будет определять высоту области рамки.CSS атрибут height позволят обозначать высоту элемента. По умолчанию, свойство определяет высоту внутренней области. Если box-sizing имеет значение border-box, то свойство будет определять высоту области рамки.CSS атрибут <span>height</span> позволят обозначать высоту элемента. По умолчанию, свойство определяет высоту внутренней области. Если <span>box-sizing</span> имеет значение <span>border-box</span>, то свойство будет определять высоту области рамки.CSS атрибут <span>height</span> позволят обозначать высоту элемента. По умолчанию, свойство определяет высоту внутренней области. Если <span>box-sizing</span> имеет значение <span>border-box</span>, то свойство будет определять высоту области рамки.CSS атрибут height позволят обозначать высоту элемента. По умолчанию, свойство определяет высоту внутренней области. Если box-sizing имеет значение border-box, то свойство будет определять высоту области рамки.CSS атрибут <span>height</span> позволят обозначать высоту элемента. По умолчанию, свойство определяет высоту внутренней области. Если <span>box-sizing</span> имеет значение <span>border-box</span>, то свойство будет определять высоту области рамки.CSS атрибут <span>height</span> позволят обозначать высоту элемента. По умолчанию, свойство определяет высоту внутренней области. Если <span>box-sizing</span> имеет значение <span>border-box</span>, то свойство будет определять высоту области рамки.CSS атрибут height позволят обозначать высоту элемента. По умолчанию, свойство определяет высоту внутренней области. Если box-sizing имеет значение border-box, то свойство будет определять высоту области рамки.</p>
+					<p class="height-text-third">CSS атрибут <span>height</span> позволят обозначать высоту элемента. По умолчанию, свойство определяет высоту внутренней области. Если <span>box-sizing</span> имеет значение <span>border-box</span>, то свойство будет определять высоту области рамки.CSS атрибут <span>height</span> позволят обозначать высоту элемента. По умолчанию, свойство определяет высоту внутренней области. Если <span>box-sizing</span> имеет значение <span>border-box</span>, то свойство будет определять высоту области рамки.CSS атрибут height позволят обозначать высоту элемента. По умолчанию, свойство определяет высоту внутренней области. Если box-sizing имеет значение border-box, то свойство будет определять высоту области рамки.</p>
+				</div>
+				<div id="a7" class="example-max-height">
+					<h2><a href="#">max-height</a></h2>
+					<p class="max-height-text-first">Свойство CSS <span>max-height</span> устанавливает максимальную высоту элемента. Оно предотвращает <span style="color: rgb(216, 67, 40);">используемое значение</span> свойства <span>height</span> от становления больше, чем значение, указанное для <span>max-height</span>.Свойство CSS <span>min-height</span> устанавливает максимальную высоту элемента. Оно предотвращает <span style="color: rgb(216, 67, 40);">используемое значение</span> свойства <span>height</span> от становления больше, чем значение, указанное для <span>min-height</span>.Свойство CSS <span>max-height</span> устанавливает максимальную высоту элемента. Оно предотвращает <span style="color: rgb(216, 67, 40);">используемое значение</span> свойства <span>height</span> от становления больше, чем значение, указанное для <span>max-height</span>.</p>
+					<p class="max-height-text-second">Свойство CSS <span>max-height</span> устанавливает максимальную высоту элемента. Оно предотвращает <span style="color: rgb(216, 67, 40);">используемое значение</span> свойства <span>height</span> от становления больше, чем значение, указанное для <span>max-height</span>.Свойство CSS <span>max-height</span> устанавливает максимальную высоту элемента. Оно предотвращает <span style="color: rgb(216, 67, 40);">используемое значение</span> свойства <span>height</span> от становления больше, чем значение, указанное для <span>min-height</span>.Свойство CSS <span>max-height</span> устанавливает максимальную высоту элемента. Оно предотвращает <span style="color: rgb(216, 67, 40);">используемое значение</span> свойства <span>height</span> от становления больше, чем значение, указанное для <span>max-height</span>.</p>
+					<p class="max-height-text-third">Свойство CSS <span>max-height</span> устанавливает максимальную высоту элемента. Оно предотвращает <span style="color: rgb(216, 67, 40);">используемое значение</span> свойства <span>height</span> от становления больше, чем значение, указанное для <span>max-height</span>.Свойство CSS <span>max-height</span> устанавливает максимальную высоту элемента. Оно предотвращает <span style="color: rgb(216, 67, 40);">используемое значение</span> свойства <span>height</span> от становления больше, чем значение, указанное для <span>max-height</span>.Свойство CSS <span>min-height</span> устанавливает максимальную высоту элемента. Оно предотвращает <span style="color: rgb(216, 67, 40);">используемое значение</span> свойства <span>height</span> от становления больше, чем значение, указанное для <span>max-height</span>.</p>
+				</div>
+				<div id="a8" class="example-min-height">
+					<h2><a href="#">min-height</a></h2>
+					<p class="min-height-text-first">Свойство CSS <span>min-height</span> устанавливает минимальную высоту элемента. Оно предотвращает <span style="color: rgb(216, 67, 40);">используемое значение</span> свойства <span>height</span> от становления меньше, чем значение, указанное для <span>min-height</span>.Свойство CSS <span>min-height</span> устанавливает минимальную высоту элемента. Оно предотвращает <span style="color: rgb(216, 67, 40);">используемое значение</span> свойства <span>height</span> от становления меньше, чем значение, указанное для <span>min-height</span>.Свойство CSS <span>min-height</span> устанавливает минимальную высоту элемента. Оно предотвращает <span style="color: rgb(216, 67, 40);">используемое значение</span> свойства <span>height</span> от становления меньше, чем значение, указанное для <span>min-height</span>.</p>
+					<p class="min-height-text-second">Свойство CSS <span>min-height</span> устанавливает минимальную высоту элемента. Оно предотвращает <span style="color: rgb(216, 67, 40);">используемое значение</span> свойства <span>height</span> от становления меньше, чем значение, указанное для <span>min-height</span>.Свойство CSS <span>min-height</span> устанавливает минимальную высоту элемента. Оно предотвращает <span style="color: rgb(216, 67, 40);">используемое значение</span> свойства <span>height</span> от становления меньше, чем значение, указанное для <span>min-height</span>.Свойство CSS <span>min-height</span> устанавливает минимальную высоту элемента. Оно предотвращает <span style="color: rgb(216, 67, 40);">используемое значение</span> свойства <span>height</span> от становления меньше, чем значение, указанное для <span>min-height</span>.</p>
+					<p class="min-height-text-third">Свойство CSS <span>min-height</span> устанавливает мминимальную высоту элемента. Оно предотвращает <span style="color: rgb(216, 67, 40);">используемое значение</span> свойства <span>height</span> от становления меньше, чем значение, указанное для <span>min-height</span>.Свойство CSS <span>min-height</span> устанавливает минимальную высоту элемента. Оно предотвращает <span style="color: rgb(216, 67, 40);">используемое значение</span> свойства <span>height</span> от становления меньше, чем значение, указанное для <span>min-height</span>.Свойство CSS <span>min-height</span> устанавливает минимальную высоту элемента. Оно предотвращает <span style="color: rgb(216, 67, 40);">используемое значение</span> свойства <span>height</span> от становления меньше, чем значение, указанное для <span>min-height</span>.</p>
+				</div>
+				<div id="a9" class="example-overflow">
+					<h2><a href="#">overflow</a></h2>
+					<h3>overflow-hidden</h3>
+					<p class="overflow-hidden">Свойство CSS overflow определяет, необходимо ли для переполненного блочного элемента содержимое обрезать, предоставить полосы прокрутки или просто отобразить.
+						Использование свойства overflow со значениями, отличными от visible, (значение, принятое по умолчанию), создаёт новый блочный контекст форматирования. Это технически необходимо, поскольку если бы float пересекался с элементом прокрутки, это потребовало бы обеспечить обтекание содержимого прокручиваемого элемента вокруг вторгающихся float'ов. Обтекание при этом было бы необходимо производить после каждого шага прокрутки заново, что привело бы к заметному замедлению прокрутки. Обратите внимание, что при программной установке атрибута scrollTop для соответствующего HTML-элемента, даже если overflow имеет значение hidden, элемент, возможно, придётся прокрутить.</p>
+					<h3>overflow-scroll</h3>
+					<p class="overflow-scroll">Свойство CSS overflow определяет, необходимо ли для переполненного блочного элемента содержимое обрезать, предоставить полосы прокрутки или просто отобразить.
+						Использование свойства overflow со значениями, отличными от visible, (значение, принятое по умолчанию), создаёт новый блочный контекст форматирования. Это технически необходимо, поскольку если бы float пересекался с элементом прокрутки, это потребовало бы обеспечить обтекание содержимого прокручиваемого элемента вокруг вторгающихся float'ов. Обтекание при этом было бы необходимо производить после каждого шага прокрутки заново, что привело бы к заметному замедлению прокрутки. Обратите внимание, что при программной установке атрибута scrollTop для соответствующего HTML-элемента, даже если overflow имеет значение hidden, элемент, возможно, придётся прокрутить.</p>
+					<h3>overflow-auto</h3>
+					<p class="overflow-auto">Свойство CSS overflow определяет, необходимо ли для переполненного блочного элемента содержимое обрезать, предоставить полосы прокрутки или просто отобразить.
+						Использование свойства overflow со значениями, отличными от visible, (значение, принятое по умолчанию), создаёт новый блочный контекст форматирования. Это технически необходимо, поскольку если бы float пересекался с элементом прокрутки, это потребовало бы обеспечить обтекание содержимого прокручиваемого элемента вокруг вторгающихся float'ов. Обтекание при этом было бы необходимо производить после каждого шага прокрутки заново, что привело бы к заметному замедлению прокрутки. Обратите внимание, что при программной установке атрибута scrollTop для соответствующего HTML-элемента, даже если overflow имеет значение hidden, элемент, возможно, придётся прокрутить.</p>
+				</div>
+				<div id="a10" class="example-display">
+					<h2><a href="#">display</a></h2>
+					<h3><span>display:block</span>+строчный элемент</h3>
+					<span class="string">Свойство display (CSS) определяет тип отображения (display type) элемента, имеющий два основных свойства, определяющих генерацию боксов — внешний тип отображения определяет расположение бокса в схеме потока (flolayout) и внутренний тип отображения определяет расположение дочерних элементов бокса (бокс - это прямоугольная область, являющаяся изображением элемента).
+						Некоторые значения свойства display полностью определены в их индивидуальных спецификациях; смотрите таблицу в конце этого документа со ссылками на все релевантные спецификации. Полный список значений приведён ниже.
+					</span>
+					<h3><span>display:inline-block</span>+строчный элемент и картинка</h3>
+					<div class="example-inline">
+						<span class="inline">Свойство display (CSS) определяет тип отображения (display type) элемента, имеющий два основных свойства, определяющих генерацию боксов — внешний тип отображения определяет расположение бокса в схеме потока (flolayout) и внутренний тип отображения определяет расположение дочерних элементов бокса (бокс - это прямоугольная область, являющаяся изображением элемента).Некоторые значения свойства display полностью определены в их индивидуальных спецификациях; смотрите таблицу в конце этого документа со ссылками на все релевантные спецификации. 
+						</span>
+						<img src="img/gornii.jpg" alt="pic">
+						<span class="inline">Свойство display (CSS) определяет тип отображения (display type) элемента, имеющий два основных свойства, определяющих генерацию боксов — внешний тип отображения определяет расположение бокса в схеме потока (flolayout) и внутренний тип отображения определяет расположение дочерних элементов бокса (бокс - это прямоугольная область,являющаяся изображением элемента).Некоторые значения свойства display полностью определены в их индивидуальных спецификациях; смотрите таблицу в конце этого документа со ссылками на все релевантные спецификации. 
+						</span>
+					</div>
+					<h3><span>display:inline</span>+блочный элемент и картинка</h3>
+					<div class="example-block">
+						<p class="block">Свойство display (CSS) определяет тип отображения (display type) элемента, имеющий два основных свойства, определяющих генерацию боксов — внешний тип отображения определяет расположение бокса в схеме потока (flolayout) и внутренний тип отображения определяет расположение дочерних элементов бокса (бокс - это прямоугольная область,являющаяся изображением элемента).Некоторые значения свойства display полностью определены в их индивидуальных спецификациях; смотрите таблицу в конце этого документа со ссылками на все релевантные спецификации.</p>
+						<div class="block-img"><img src="img/gornii.jpg" alt="pic"></div>
+						<p class="block">Свойство display (CSS) определяет тип отображения (display type) элемента, имеющий два основных свойства, определяющих генерацию боксов — внешний тип отображения определяет расположение бокса в схеме потока (flolayout) и внутренний тип отображения определяет расположение дочерних элементов бокса (бокс - это прямоугольная область,являющаяся изображением элемента).Некоторые значения свойства display полностью определены в их индивидуальных спецификациях; смотрите таблицу в конце этого документа со ссылками на все релевантные спецификации.</p>
+					</div>
+				</div>
+				<div id="a11" class="example-images">
+					<h2><a href="#">images</a></h2>
+					<h3>padding</h3>
+					<div class="image-a"><img src="img/gornii.jpg" alt="pic"></div>
+					<h3>margin</h3>
+					<div class="image-b"><img src="img/gornii.jpg" alt="pic"></div>
+					<h3>width</h3>
+					<div class="image-c"><img src="img/gornii.jpg" alt="pic"></div>
+					<h3>max-width</h3>
+					<div class="image-d"><img src="img/gornii.jpg" alt="pic"></div>
+					<h3>min-width</h3>
+					<div class="image-e"><img src="img/gornii.jpg" alt="pic"></div>
+					<h3>height</h3>
+					<div class="image-f"><img src="img/gornii.jpg" alt="pic"></div>
+					<h3>max-height</h3>
+					<div class="image-g"><img src="img/gornii.jpg" alt="pic"></div>
+					<h3>min-height</h3>
+					<div class="image-h"><img src="img/gornii.jpg" alt="pic"></div>
+					<h3>overflow</h3>
+					<h4>scroll</h4>
+					<div class="image-i"><img src="img/gornii.jpg" alt="pic"></div>
+					<h4>hidden</h4>
+					<div class="image-j"><img src="img/gornii.jpg" alt="pic"></div>
+					<h4>auto</h4>
+					<div class="image-k"><img src="img/gornii.jpg" alt="pic"></div>
+				</div>
+				<div id="a12" class="additional task">
+					<h2><a href="#">additional tasks</a></h2>
+					<h3>Four SPANs</h3>
+					<div class="four-spans">
+						<span>ПРИВЕТ!</span>
+						<span>ПРИВЕТ!</span>
+						<span>ПРИВЕТ!</span>
+						<span>ПРИВЕТ!</span>
+					</div>
+					<h3>Three DIVs</h3>
+					<div class="three-divs">
+						<div class="div-text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quam porro ex doloribus nisi aperiam saepe eius exercitationem beatae perspiciatis?
+						</div>
+						<div class="div-text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quam porro ex doloribus nisi aperiam saepe eius exercitationem beatae perspiciatis?
+						</div>
+						<div class="div-text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quam porro ex doloribus nisi aperiam saepe eius exercitationem beatae perspiciatis?
+						</div>
+					</div>
+					<h3>LINK with text "LINK"</h3>
+					<a href="#a1" class="link-link">ССЫЛКА</a>
+					<h3>Four-Paragraphs</h3>
+					<div class="four-paragraphs">
+						<p>Lorem ipsum dolor sit amet.</p>
+						<p>Lorem ipsum dolor sit amet.</p>
+						<p>Lorem ipsum dolor sit amet.</p>
+						<p>Lorem ipsum dolor sit amet.</p>
+					</div>
+					<h3>Two DIVs with TEXT</h3>
+					<div class="two-divs-text">
+						<div class="div-text-first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint mollitia ratione ullam. Corporis recusandae illum dolorum quibusdam blanditiis quisquam temporibus debitis maxime laborum distinctio velit, explicabo asperiores aliquid accusantium molestias esse ipsam nulla reprehenderit, eos quod, eius numquam non! Odio, id sapiente voluptate, ipsam dolore voluptatem maxime explicabo expedita, magnam quod perspiciatis mollitia possimus. Mollitia optio nisi corrupti ut expedita! Sint totam consequatur est dolor animi repellat, amet numquam sit labore laudantium quas nihil nobis nostrum odit aspernatur illum culpa asperiores quod magnam velit maxime deleniti? Ullam quidem facilis neque! Doloremque autem fugit sed eum libero nemo qui dolores quas!</div>
+						<div class="div-text-second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, animi dolore. Obcaecati, voluptatem ab? Quas sapiente expedita maiores quidem dolorem iusto, saepe commodi. Quis odit eaque soluta enim accusamus optio reprehenderit distinctio atque ad repellat magni rerum voluptas nam ducimus, at totam temporibus tenetur perferendis, eligendi eveniet natus? Corporis sint iusto, sunt fugiat in temporibus, quibusdam voluptatum repellat quos illo ex consequuntur dolores et mollitia soluta minima iste? Accusantium vero animi, facere soluta odio quasi! Facere quas, amet quis cum autem natus accusantium doloremque laboriosam. Architecto quaerat animi iusto sunt. Animi saepe culpa doloremque incidunt laboriosam fuga necessitatibus magnam perferendis?</div>
+					</div>
+					<h3>SPAN with BIG TEXT and SCROLL</h3>
+					<span class="big-text-scroll">
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores voluptas nam quae veritatis, voluptates id quisquam vero blanditiis iste laudantium corrupti consequatur quis magnam deleniti recusandae vel eligendi in et quaerat. Accusamus odio itaque tempore ducimus, illum illo voluptas, sint vitae consequuntur quidem cupiditate corporis veritatis magni harum labore? Cum dolorem possimus distinctio minus, enim quibusdam nostrum expedita, magni neque similique doloremque! Et officia magni quo repudiandae corporis aut magnam beatae earum quod tempora repellat voluptate vitae quae, quos minus soluta nihil quaerat in accusamus quia blanditiis voluptatem. Dicta cumque dignissimos placeat a enim tempore unde animi dolorem vitae! Rem illum laudantium ducimus, quia neque omnis odio dicta, aliquid ea eum praesentium. Vel modi atque odio delectus aut voluptates eveniet? Nam debitis temporibus eius voluptatibus reiciendis praesentium odit molestiae magnam, itaque aperiam nobis quaerat, tenetur nemo consectetur aut rerum incidunt labore architecto sed repellat fugit? Facilis neque totam corporis voluptatem. Eaque cumque est distinctio totam excepturi veniam dolore rerum libero id. Ullam, ipsam doloribus. Vel ut minus voluptate omnis reprehenderit in! A consequuntur sunt excepturi? Dicta nostrum vero odio obcaecati minus natus! Omnis ut non, accusamus explicabo, minus asperiores adipisci fuga delectus nesciunt earum, culpa neque magnam dolor assumenda corporis! Possimus dicta expedita id nam quod ipsa temporibus voluptas maxime? Recusandae velit, soluta ipsam, eligendi adipisci harum temporibus, ullam vero ipsum ad debitis reprehenderit. Modi itaque enim ullam aliquid quo, quisquam ratione possimus laboriosam voluptates, veniam pariatur, provident voluptatum nulla! Provident totam placeat itaque earum incidunt a. Excepturi error alias illum eum cupiditate sint adipisci quae. Impedit temporibus asperiores explicabo laborum provident ullam veniam, at unde voluptas vitae ratione distinctio est placeat iste magni itaque aliquid tenetur omnis in nobis reiciendis recusandae molestias doloremque! Laboriosam velit voluptatum sapiente ad debitis veniam ab? Rerum ipsa ea quisquam voluptate tempore consequatur sapiente recusandae temporibus modi. Aut, quis? Ex iure ratione, rerum sapiente numquam earum minus iste deserunt accusantium vitae! Minima tempore non impedit officia suscipit enim perferendis qui ratione, nobis autem, soluta aliquam aut, eligendi asperiores nesciunt. Quisquam quod tempora fugiat modi vel soluta sed. Rerum debitis tenetur temporibus quae assumenda dolorum esse aliquam, obcaecati itaque aliquid quia atque omnis? Voluptatem earum at sapiente, minus laboriosam officiis, dignissimos ipsam mollitia possimus laudantium reiciendis temporibus. Optio repudiandae explicabo molestias dignissimos laboriosam iure, adipisci et hic autem quae sapiente est quidem possimus debitis fuga similique maiores voluptates aliquid ut, quibusdam animi nostrum blanditiis error incidunt. Aspernatur optio dolore aut accusantium quia tenetur doloribus. Illo doloribus vel dicta deserunt animi ratione tenetur, adipisci error aliquam. Dolor accusamus dolore iste, culpa sit facilis cupiditate sed quisquam at, distinctio, iure numquam aperiam veritatis! Dolorum, repellat quis officiis incidunt et reiciendis, error magnam repudiandae nemo aliquam autem ipsum distinctio. Porro sapiente recusandae sint obcaecati impedit quidem officia quisquam ipsum magnam? Optio amet maiores doloremque tenetur, explicabo quod ex et praesentium aut nihil minima ipsa veritatis, maxime dicta quis reiciendis enim error laudantium odio ullam aperiam ut molestias. Harum deserunt vel tempora labore asperiores ipsum possimus qui rem eveniet quas voluptas id, repellat, sint ex obcaecati impedit. Mollitia quis ipsam asperiores rem nemo alias odio in amet commodi, distinctio ullam, ducimus, cupiditate a nam nesciunt earum quas quod et totam perspiciatis iure? Qui illo dicta sunt optio itaque ex placeat? Reprehenderit officiis, cumque amet id qui reiciendis necessitatibus numquam tempora, expedita eaque alias saepe est aperiam optio earum, illo eos. Repellendus iusto incidunt aperiam amet architecto quidem. Minima, dolor impedit iste dignissimos eum iusto illum soluta tempore alias necessitatibus ex similique consequuntur ipsa porro eligendi nam molestias omnis eaque? Quia, quae! Eaque aliquid aperiam expedita blanditiis obcaecati fugiat ducimus, molestias magni saepe sequi odio, quibusdam numquam quam aspernatur quod. Minus maxime dolore amet atque, iure quidem consequatur placeat asperiores neque saepe labore illo reprehenderit soluta qui porro officia harum repudiandae explicabo, itaque nihil natus adipisci, blanditiis autem quod. Dicta assumenda doloribus odio maiores dolor, id alias voluptas ullam officia, omnis earum vitae facere deserunt corrupti consectetur exercitationem aliquam molestiae fuga labore consequuntur nostrum est sequi! Sapiente aperiam error, vitae sunt nemo pariatur placeat adipisci, quos recusandae excepturi qui assumenda! Similique maiores neque incidunt, ut qui eum? Magnam explicabo repudiandae illo quaerat tempore id vitae iste aliquam reiciendis et sunt officia quod veniam voluptates nisi debitis amet aspernatur, ipsum non ad maiores. Facere dignissimos facilis, repellendus, reprehenderit amet qui nobis a maiores magni corporis ratione ea quia accusamus consectetur animi eos aliquid maxime excepturi nulla in autem distinctio adipisci ab ipsa. Corporis officia id, soluta delectus, aliquid magnam doloribus dolorum vero dolor similique, voluptas minima porro? Inventore dicta perspiciatis, aut, dolorem, suscipit ipsa soluta ex maxime quia vero eius sed. Incidunt esse, molestias amet praesentium aperiam maiores vitae, cupiditate, beatae deleniti quibusdam minus fugiat est! Dolorum perferendis aspernatur optio omnis eligendi vel officiis amet explicabo veniam, voluptates hic, quisquam provident. Consectetur laboriosam dolor esse molestiae libero suscipit quod, doloremque, sint rerum ipsum repellat! Aperiam natus fuga quo! Esse laboriosam velit vitae inventore quos perferendis dolore amet eveniet quas neque dicta, harum aut temporibus culpa voluptatum modi. Iste ratione voluptatum, itaque blanditiis, quae pariatur nulla aliquid debitis est eveniet odio veniam nam perferendis maiores aut assumenda? Sunt, veritatis sit minus rerum qui a porro laboriosam voluptate voluptatum. Quasi nulla iure excepturi enim praesentium ipsa facere consequuntur! Aut tempore mollitia facere officia debitis ducimus dolorum aspernatur facilis corrupti? Iste, exercitationem doloribus dolores, asperiores libero accusantium, quaerat itaque deleniti quis dolore reprehenderit praesentium est autem? Iusto rerum cum, odio non ratione perspiciatis, omnis quam aperiam animi vero ut harum est commodi modi consectetur quisquam, nulla eaque. Architecto culpa, magni mollitia laborum distinctio quod officia fuga pariatur asperiores quis illum consequuntur unde ipsa neque nobis dolore, est saepe sapiente rem exercitationem veniam veritatis. Quas consectetur impedit eum itaque veritatis rem voluptates dignissimos dolorum praesentium quisquam quo doloremque asperiores cupiditate labore esse placeat ipsa neque quam, molestiae fuga quos nostrum! Amet maxime distinctio alias veritatis mollitia sapiente odio! Voluptas est dignissimos nulla accusamus hic magnam cupiditate, dolore aspernatur reprehenderit odio. Cupiditate doloribus ipsam quaerat dignissimos.
+					</span>
+				</div>
+			</main> 
+			<footer class="footer">
+				<nav class="header-menu">
+					<ul class="menu-list">
+						<li><a href="#a1" class="menu-link">padding |</a></li>
+						<li><a href="#a2" class="menu-link">margin |</a></li>
+						<li><a href="#a3" class="menu-link">width |</a></li>
+						<li><a href="#a4" class="menu-link">max-width |</a></li>
+						<li><a href="#a5" class="menu-link">min-width |</a></li>
+						<li><a href="#a6" class="menu-link">height |</a></li>
+						<li><a href="#a7" class="menu-link">max-height |</a></li>
+						<li><a href="#a8" class="menu-link">min-height |</a></li>
+						<li><a href="#a9" class="menu-link">overflow |</a></li>
+						<li><a href="#a10" class="menu-link">display |</a></li>
+						<li><a href="#a11" class="menu-link">images |</a></li>
+						<li><a href="#a12" class="menu-link">additional tasks |</a></li>
+					</ul>
+			</footer>
+		</div>
+	</body>
+</html>

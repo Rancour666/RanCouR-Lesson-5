@@ -673,21 +673,17 @@ h4{
 }
 
 
-
-
-.validators{
-	max-width: 31px;
-	margin: 30px auto;
-}
-
-
 /*==================FOOTER=========================*/
 
+.footer{
+	padding: 50px 0px 0px 0px;
+}
 
 .footer .menu-list li a{
 	display: inline-block;
 	color: rgb(51, 51, 51);
 	font-size: 30px;
 	text-decoration: overline;
-	margin: 50px 0px 20px 0px;
+	padding: 40px 0px 0px 0px;
+	margin: 0px 0px 20px 0px;
 }
